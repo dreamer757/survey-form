@@ -1,0 +1,53 @@
+body {
+  background-image: url(https://www.filmconvert.com/Content/images/headers/film-stocks.jpg),
+    radial-gradient(#444, #222);
+  background-blend-mode: multiply;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+em {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+.details-div label {
+  display: block;
+  margin-top: 1em;
+}
+
+.form-container {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+button {
+  font-size: medium;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 15px;
+  border-color: red;
+  display: block;
+  background-color: red;
+}
+button:hover {
+  cursor: pointer;
+}
+.textarea-div {
+  display: block;
+  color: rgb(255, 255, 255);
+
+  font-family: Poppins, sans-serif;
+  height: 167px;
+  margin-top: 16px;
+  width: 248.21875px;
+}

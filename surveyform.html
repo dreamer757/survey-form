@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">Movie Survey Form</h1>
+        <p id="description">
+          <em>Thank you taking the time to complete this survey</em>
+        </p>
+      </header>
+      <div class="form-container">
+        <form id="survey-form" action>
+          <fieldset>
+            <div class="details-div">
+              <label id="number-label" for="number">Age</label>
+              <input
+                id="number"
+                type="number"
+                name="number"
+                placeholder="age"
+                min="12"
+                max="100"
+                required="age"
+              />
+              <label id="name-label" for="name">Name</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                placeholder="username"
+                required=""
+              />
+
+              <label for="email" id="email-label">Email</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="email"
+                required=""
+              />
+            </div>
+            <div class="dropdown-div">
+              <label for="dropdown" id="select"
+                >What is your favorite movie genre?</label
+              >
+              <br />
+              <select name="dropdown" id="dropdown">
+                <option value="Horror">Horror</option>
+                <option value="Romance">Romance</option>
+                <option value="Action">Action</option>
+                <option value="Science Fiction">Science Fiction</option>
+              </select>
+            </div>
+            <div class="radio-div">
+              <p>How do you prefer to see movies?</p>
+              <input
+                id="radio"
+                type="radio"
+                name="response"
+                value="Definitely"
+              />
+              <label for="radio" id="radio-label">At Home</label>
+              <br />
+              <input id="radio" type="radio" name="response" value="Maybe" />
+              <label for="radio" id="radio-label">In Theaters</label>
+              <br />
+              <input
+                id="radio"
+                type="radio"
+                name="response"
+                value="Streaming"
+              />
+              <label for="radio" id="radio-label">Streaming</label>
+            </div>
+            <div class="checkbox-div">
+              <p>
+                Which movie genres do you recommend?
+                <span>(click all that apply)</span>
+              </p>
+
+              <input id="checkbox" value="Drama" type="checkbox" name="genre" />
+              <label for="checkbox" id="genre">Drama</label><br />
+              <input
+                id="checkbox"
+                value="Comedy"
+                type="checkbox"
+                name="genre"
+              />
+              <label for="checkbox" id="genre">Comedy</label><br />
+              <input
+                id="checkbox"
+                value="Romance"
+                type="checkbox"
+                name="genre"
+              />
+              <label for="checkbox" id="genre">Romance</label><br />
+              <input
+                id="checkbox"
+                value="Action"
+                type="checkbox"
+                name="genre"
+              />
+              <label for="checkbox" id="genre">Action</label><br />
+              <input
+                id="checkbox"
+                value="Thriller"
+                type="checkbox"
+                name="genre"
+              />
+              <label for="checkbox" id="genre">Thriller</label><br />
+              <input
+                id="checkbox"
+                value="Horror"
+                type="checkbox"
+                name="genre"
+              />
+              <label for="checkbox" id="genre">Horror</label><br />
+              <input id="checkbox" value="Crime" type="checkbox" name="genre" />
+              <label for="checkbox" id="genre">Crime</label><br />
+              <input
+                id="checkbox"
+                value="Fantasy"
+                type="checkbox"
+                name="genre"
+              />
+              <label for="checkbox" id="genre">Fantasy</label><br />
+              <input
+                id="checkbox"
+                value="Animation"
+                type="checkbox"
+                name="genre"
+              />
+              <label for="checkbox" id="genre">Animation</label><br />
+              <input
+                id="checkbox"
+                value="Adventure"
+                type="checkbox"
+                name="genre"
+              />
+              <label for="checkbox" id="genre">Adventure</label><br />
+              <input
+                id="checkbox"
+                value="Musical"
+                type="checkbox"
+                name="genre"
+              />
+              <label for="checkbox" id="genre">Musical</label><br />
+              <input
+                id="checkbox"
+                value="Sci-Fi"
+                type="checkbox"
+                name="genre"
+              />
+              <label for="checkbox" id="genre">Sci-Fi</label>
+            </div>
+            <div class="textarea-div">
+              <label for="message" id="textarea-label"
+                >Do you have comments or suggestions?</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Enter suggestions"
+              ></textarea>
+            </div>
+
+            <button id="submit" type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
